@@ -1,0 +1,49 @@
+body {
+    background-color: black;
+    color: #1ec503;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+table, th, td {
+    border: 1px solid #1ec503;
+}
+
+table {
+    width: 100%;
+}
+
+input {
+    background-color: #1ec503;
+    color: black;
+}
+
+button {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    background-color: #1ec503;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.input-len {
+    width: 30px;
+    text-align: right;
+}
+
+.input-genned {
+    text-align: center;
+}
+
+.btn-gen {
+    margin: 0 auto;
+    display: block;
+}
+
+#inp-spe-char {
+    width: 200px;
+}

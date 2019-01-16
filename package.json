@@ -1,0 +1,27 @@
+{
+  "name": "upgen-gui",
+  "version": "1.0.0",
+  "description": "Username and password generator",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rtzy95/upgen-gui.git"
+  },
+  "keywords": [
+    "username",
+    "generator",
+    "password"
+  ],
+  "author": "Ryan Tan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rtzy95/upgen-gui/issues"
+  },
+  "homepage": "https://github.com/rtzy95/upgen-gui#readme",
+  "devDependencies": {
+    "electron": "^4.0.1"
+  }
+}

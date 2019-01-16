@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>UPgen</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <h1>UPgen - Username and Password generator</h1>
+    <div>
+      <table>
+        <tr>
+          <th>Username length? (default 7)</th>
+          <th><input type="number" id="inp-uname-len" value="7" class="input-len"></th>
+        </tr>
+        <tr>
+          <th>Password length? (default 13)</th>
+          <th><input type="number" id="inp-pass-len" value="13" class="input-len"></th>
+        </tr>
+      </table>
+      <br />
+      <table>
+        <tr>
+          <th>Password includes:</th>
+        </tr>
+        <tr>
+          <th>Uppercase</th>
+          <th><input type="checkbox" id="chk-upper" name="uppercase"></th>
+          <th></th>
+        </tr>
+        <tr>
+          <th>Numeric</th>
+          <th><input type="checkbox" id="chk-num" name="numeric"></th>
+          <th></th>
+        </tr>
+        <tr>
+          <th>Special characters</th>
+          <th><input type="checkbox" id="chk-spe" name="spe-char"></th>
+          <th><input type="text" id="inp-spe-char" value="~!@#$%^&*()_+<>"></th>
+        </tr>
+      </table>
+    </div>
+
+    <br />
+
+    <button type="button" id="btn-gen" class="btn-gen">Generate!</button>
+    
+    <br />
+
+    <div>
+      <table>
+        <tr>
+          <th>Username:</th>
+          <th><input type="text" id="inp-gen-uname" class="input-genned" disabled></th>
+        </tr>
+        <tr>
+          <th>Password:</th>
+          <th><input type="text" id="inp-gen-pass" class="input-genned" value="adminpassword" disabled></th>
+        </tr>
+      </table>
+    </div>
+
+    <!-- Javascript -->
+    <script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
+    <script src="./jquery-3.3.1.min.js" charset="utf-8"></script>
+    <script src="./app.js" charset="utf-8"></script>
+    <script>if (window.module) module = window.module;</script>
+  </body>
+</html>
